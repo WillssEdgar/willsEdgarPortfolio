@@ -1,0 +1,17 @@
+.home {
+    height: 400px;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.name {
+    font-family: monospace;
+    font-size: 55px;
+    margin-bottom: 0px;
+}
+
+.career {
+    font-size: 35px;
+    font-family: monospace;
+    margin-top: 0px;
+}

@@ -1,0 +1,16 @@
+/**** About Me ****/
+.aboutMe {
+    height: 300px;
+    text-align: center;
+}
+
+.aboutMeContainer {
+    margin: 200px;
+}
+.aboutMeHeading {
+    font-size: 40px;
+}
+
+.aboutMeInfo {
+    font-size: 25px;
+}
