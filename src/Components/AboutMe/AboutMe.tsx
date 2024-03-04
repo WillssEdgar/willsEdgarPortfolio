@@ -4,7 +4,7 @@ function AboutMe() {
     <div>
       <div className="aboutMe" id="aboutMe">
         <div className="aboutMeContainer">
-          <h1 className="aboutMeHeading"> About Me</h1>
+          <h5 className="aboutMeHeading"> About Me</h5>
           <h3 className="aboutMeInfo">
             I am a dedicated and passionate software engineering student, deeply
             immersed in the world of programming. Proficient in Java,
