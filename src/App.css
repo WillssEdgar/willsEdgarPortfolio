@@ -1,8 +1,9 @@
 body {
     
-    background: linear-gradient(to right,#8c8888, rgb(102, 102, 222) );
+    /*background: linear-gradient(to right,#8c8888, rgb(102, 102, 222) );*/
     color: white;
     max-width: 1200px;
+    height: auto;
     margin: 0 auto;
     font-family: monospace;
 }

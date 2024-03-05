@@ -2,14 +2,18 @@
 .aboutMe {
     height: 300px;
     text-align: center;
+    
 }
 
 .aboutMeContainer {
-    margin: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+    margin-bottom: 500px;
 }
-.aboutMeHeading {
-    font-size: 40px;
-}
+
 
 .aboutMeInfo {
     font-size: 25px;
