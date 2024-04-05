@@ -1,9 +1,18 @@
 body {
-    
-    /*background: linear-gradient(to right,#8c8888, rgb(102, 102, 222) );*/
+
     color: white;
-    max-width: 1200px;
+    max-width: 1500px;
     height: auto;
     margin: 0 auto;
     font-family: monospace;
+}
+
+.homediv {
+    background-image: url("assets/hoomeImage.png");
+    background-position: 50%;
+    background-size: 100%;
+    height: 700px;
+    margin: 10% 0;
+    background-color: aliceblue;
+    
 }

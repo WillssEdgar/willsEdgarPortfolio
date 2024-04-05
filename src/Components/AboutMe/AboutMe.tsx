@@ -2,10 +2,10 @@ import "./AboutMe.css";
 function AboutMe() {
   return (
     <div>
-      <div className="aboutMe" id="aboutMe">
+      <div className="aboutMe " id="aboutMe">
         <div className="aboutMeContainer">
           <h5 className="aboutMeHeading"> About Me</h5>
-          <h3 className="aboutMeInfo">
+          <h3 className="aboutMeInfo text-red-500">
             I am a dedicated and passionate software engineering student, deeply
             immersed in the world of programming. Proficient in Java,
             JavaScript, and Python, I find joy in crafting elegant solutions to

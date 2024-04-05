@@ -1,4 +1,5 @@
-import "bootstrap/dist/css/bootstrap.css";
+// import "bootstrap/dist/css/bootstrap.css";
+import "./index.css";
 import Home from "./Components/Home/Home";
 import Navigation from "./Components/Navigation/Navigation";
 import "./App.css";
@@ -11,11 +12,23 @@ function App() {
   return (
     <div>
       <Navigation />
-      <Home />
-      <AboutMe />
-      <Expertise />
-      <Projects />
-      <Footer />
+      <div className="grid grid-rows-5">
+        <div className="homediv content-center">
+          <Home />
+        </div>
+        <div className="aboutmediv d-flex align-items-center justify-content-center ">
+          <AboutMe />
+        </div>
+        <div>
+          <Expertise />
+        </div>
+        <div>
+          <Projects />
+        </div>
+        <div>
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 }

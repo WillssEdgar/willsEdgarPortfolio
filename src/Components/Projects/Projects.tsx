@@ -9,7 +9,7 @@ const Projects = () => {
 
         <div className="row row-cols-1 row-cols-md-3 g-4">
           <div className="col-sm-8 col-md-6 col-lg-4">
-            <div className="card h-100 bg-light-subtle">
+            <div className="card">
               <img
                 src={madeByWillsPreview}
                 className="card-img-top"
@@ -30,7 +30,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="col-sm-8 col-md-6 col-lg-4">
-            <div className="card h-100 bg-light-subtle">
+            <div className="card h-100">
               <img
                 src={madeByWillsPreview}
                 className="card-img-top"
@@ -50,7 +50,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="col-sm-8 col-md-6 col-lg-4">
-            <div className="card h-100 bg-light-subtle">
+            <div className="card h-100 ">
               <img
                 src={madeByWillsPreview}
                 className="card-img-top"

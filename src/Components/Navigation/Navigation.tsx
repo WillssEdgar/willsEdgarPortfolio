@@ -5,7 +5,7 @@ function Navigation() {
   return (
     <div>
       <header>
-        <nav className="navBar bg-dark">
+        <nav className="navBar bg-zinc-700">
           <ScrollLink to="home" smooth={true} duration={500} offset={-350}>
             Home
           </ScrollLink>
