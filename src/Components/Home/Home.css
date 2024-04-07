@@ -1,13 +1,12 @@
-
+/* 
 .home {
-
+    
     text-align: center;
 }
 
 .blur{
     backdrop-filter: blur(20px);
     background-color: rgba(0, 0, 0, 0.7); 
-
 }
 
 .centeredRow {
@@ -24,4 +23,4 @@
     font-size: 35px;
     font-family: monospace;
     margin-top: 0px;
-}
+} */

@@ -1,20 +1,7 @@
 /**** About Me ****/
-.aboutMe {
-    
-    text-align: center;
-    
+
+.blurCon {
+    backdrop-filter: blur(40px);
+    background-color: rgba(0, 0, 0, 0.7); 
 }
 
-.aboutMeContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    margin-bottom: 40%;
-}
-
-
-.aboutMeInfo {
-    font-size: 25px;
-}
