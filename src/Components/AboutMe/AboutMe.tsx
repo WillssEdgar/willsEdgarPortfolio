@@ -3,7 +3,7 @@ function AboutMe() {
   return (
     <div>
       <div
-        className="container justify-self-center m-5 p-4 bg-slate-500 rounded-md shadow-2xl bg-opacity-25 blurCon text-center"
+        className="container justify-self-center m-5 p-8 bg-slate-700 rounded-md shadow-2xl text-slate-50 text-center"
         id="aboutMe"
       >
         <h5 className="text-5xl font-bold"> About Me</h5>

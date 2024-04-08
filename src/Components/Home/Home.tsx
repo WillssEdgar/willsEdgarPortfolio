@@ -10,8 +10,8 @@ function Home() {
           </h1>
         </div>
         <div>
-          <h3 className="text-lg font-bold text-grey-800 ">
-            SOFTWARE ENGINEER & FRONT END DEVELOPER
+          <h3 className="text-lg font-bold text-grey-700 ">
+            SOFTWARE ENGINEER & FULL STACK DEVELOPER
           </h3>
         </div>
       </div>

@@ -8,7 +8,9 @@ import ExpertiseCard from "./ExpertiseCard";
 function Expertise() {
   return (
     <div className="px-4 py-8  " id="expertise">
-      <h5 className="text-6xl text-center font-bold mb-10">Expertise</h5>
+      <h5 className="text-6xl text-gray-700 text-center font-bold mb-10">
+        Expertise
+      </h5>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 flex-none justify-items-center gap-4">
         <ExpertiseCard

@@ -4,7 +4,7 @@ function Navigation() {
   return (
     <div>
       <header>
-        <nav className="fixed top-0 left-0 w-full bg-zinc-700 text-center z-50">
+        <nav className="fixed top-0 left-0 w-full bg-gray-700 text-center z-50">
           <ScrollLink
             to="home"
             smooth={true}

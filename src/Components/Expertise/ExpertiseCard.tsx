@@ -22,6 +22,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     >
       <img
         className="w-24 h-24 object-cover float-right"
+        style={{ filter: "invert(100%)" }}
         src={imageSrc}
         alt={title}
       />
