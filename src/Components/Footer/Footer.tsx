@@ -4,7 +4,7 @@ import gitHubImage from "../../assets/github-mark-white.svg";
 function Footer() {
   return (
     <div>
-      <footer className="footer bg-dark">
+      <footer className="footer bg-gray-700">
         <div className="footer-content">
           <a href="https://www.linkedin.com/in/williamsedgar">
             <img className="linkedIn" src={linkedInImage} alt="LinkedIn" />

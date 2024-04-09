@@ -25,7 +25,7 @@ function App() {
       <div className="mb-72 flex justify-center">
         <AboutMe />
       </div>
-      <div className="mb-72">
+      <div className="mb-72 flex justify-center">
         <Expertise />
       </div>
       <div className="mb-72 flex justify-center">

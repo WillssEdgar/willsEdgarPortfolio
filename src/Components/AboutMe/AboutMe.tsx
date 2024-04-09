@@ -3,7 +3,8 @@ function AboutMe() {
   return (
     <div>
       <div
-        className="container justify-self-center m-5 p-8 bg-slate-700 rounded-md shadow-2xl text-slate-50 text-center"
+        className="container justify-self-center m-5 p-8 bg-slate-300 rounded-md text-gray-700 text-center"
+        style={{ boxShadow: "10px 10px 25px black" }}
         id="aboutMe"
       >
         <h5 className="text-5xl font-bold"> About Me</h5>

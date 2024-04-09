@@ -16,7 +16,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   lastUpdated,
 }) => {
   return (
-    <div className="max-w-sm  rounded overflow-hidden shadow-lg m-4 bg-opacity-75 bg-gray-700">
+    <div
+      className="max-w-sm  rounded overflow-hidden m-4 bg-opacity-75 bg-gray-700"
+      style={{ boxShadow: "5px 5px 20px black" }}
+    >
       <img className="w-full" src={imageSrc} alt={title} />
       <div className="px-6 py-4">
         <div className="font-bold text-slate-50 text-xl mb-2">{title}</div>
