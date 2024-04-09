@@ -10,7 +10,7 @@ function Navigation() {
             smooth={true}
             duration={500}
             offset={-350}
-            className="text-white font-mono font-bold inline-flex py-2 px-4"
+            className="text-white font-mono font-bold inline-flex py-2 px-4 cursor-pointer"
           >
             Home
           </ScrollLink>
@@ -19,8 +19,8 @@ function Navigation() {
             to="aboutMe"
             smooth={true}
             duration={500}
-            offset={-250}
-            className="text-white font-mono font-bold inline-flex py-2 px-4"
+            offset={-100}
+            className="text-white font-mono font-bold inline-flex py-2 px-4 cursor-pointer"
           >
             About Me
           </ScrollLink>
@@ -30,7 +30,7 @@ function Navigation() {
             smooth={true}
             duration={500}
             offset={-50}
-            className="text-white font-mono font-bold inline-flex py-2 px-4"
+            className="text-white font-mono font-bold inline-flex py-2 px-4 cursor-pointer"
           >
             Expertise
           </ScrollLink>
@@ -39,7 +39,8 @@ function Navigation() {
             to="projects"
             smooth={true}
             duration={500}
-            className="text-white font-mono font-bold inline-flex py-2 px-4"
+            offset={-50}
+            className="text-white font-mono font-bold inline-flex py-2 px-4 cursor-pointer"
           >
             Projects
           </ScrollLink>
