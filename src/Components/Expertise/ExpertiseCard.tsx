@@ -13,7 +13,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   return (
     <div
-      className="container bg-gray-700 blurCon text-white bg-opacity- p-4 rounded-3xl shadow-lg"
+      className="container bg-gray-700 text-white p-4 rounded-3xl shadow-lg"
       style={{
         boxShadow: "5px 5px 20px black",
         minWidth: "305px",
