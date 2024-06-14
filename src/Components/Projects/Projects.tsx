@@ -6,9 +6,8 @@ const Projects: React.FC = () => {
   return (
     <div>
       <div
-        className="projects container rounded-lg bg-slate-300"
+        className="projects container "
         id="projects"
-        style={{ boxShadow: "5px 5px 20px black" }}
       >
         <h5 className="mb-3 text-6xl p-10 text-center text-gray-700 font-bold">
           Projects

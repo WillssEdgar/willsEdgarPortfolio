@@ -8,8 +8,7 @@ import ExpertiseCard from "./ExpertiseCard";
 function Expertise() {
   return (
     <div
-      className="px-4 py-8 container rounded-lg> bg-slate-300 rounded"
-      style={{ boxShadow: "10px 10px 25px black" }}
+      className="px-4 py-8 container "
       id="expertise"
     >
       <h5 className="text-6xl text-gray-700 text-center font-bold mb-10">
