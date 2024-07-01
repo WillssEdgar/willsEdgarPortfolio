@@ -27,7 +27,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         <>
           <div className="hidden md:flex md:w-7/12 ">
             <img
-              className="w-full h-auto rounded-xl"
+              className="w-full h-auto rounded-xl shadow-lg"
               src={imageSrc}
               alt={title}
             />
@@ -47,16 +47,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
               {tags.map((tag, index) => (
                 <span
                   key={index}
-                  className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                  className="inline-block bg-slate-600 rounded-full shadow px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
                 >
                   {tag}
                 </span>
               ))}
             </div>
             <div className="px-6 pt-4 pb-2">
-              <p className="text-gray-600 text-sm">
-                Last updated: {lastUpdated}
-              </p>
+              <p className="text-gray-600 text-sm">Date: {lastUpdated}</p>
             </div>
           </div>
         </>
@@ -64,7 +62,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         <>
           <div className=" hidden md:w-2/12 md:flex md:justify-start items-center">
             <img
-              className=" h-auto rounded-xl mb-2"
+              className=" h-auto rounded-xl mb-2 shadow-lg"
               src={imageSrc}
               alt={title}
             />
@@ -83,16 +81,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
               {tags.map((tag, index) => (
                 <span
                   key={index}
-                  className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                  className="inline-block bg-slate-600 rounded-full shadow px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
                 >
                   {tag}
                 </span>
               ))}
             </div>
             <div className="px-6 pt-4 pb-2">
-              <p className="text-gray-600 text-sm">
-                Last updated: {lastUpdated}
-              </p>
+              <p className="text-gray-600 text-sm">Date: {lastUpdated}</p>
             </div>
           </div>
         </>

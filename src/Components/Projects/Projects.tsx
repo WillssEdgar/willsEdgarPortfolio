@@ -49,7 +49,7 @@ const Projects: React.FC = () => {
                 "React",
                 "TypeScript",
               ]}
-              lastUpdated="04/03/24"
+              lastUpdated="March 2024-May 2024"
             />
           </div>
           <div className="flex justify-center md:flex md:justify-end items-center gap-3 my-20">
@@ -60,7 +60,7 @@ const Projects: React.FC = () => {
               title="Made By Wills"
               description="A React driven TypeScript web application for my woodworking company."
               tags={["React", "TypeScript", "CSS"]}
-              lastUpdated="3/3/2024"
+              lastUpdated="December 2023-January 2024"
             />
           </div>
           <h5 className="mb-3  text-6xl p-10 text-start text-gray-700 font-bold">
@@ -74,7 +74,7 @@ const Projects: React.FC = () => {
               title="Hawks Eye"
               description="An android/ios app built with flutter that acts as a place to display and find UNCW sites."
               tags={["Flutter", "Dart", "Flutter Maps", "Firebase"]}
-              lastUpdated="5/20/24"
+              lastUpdated="March 2024-May 2024"
             />
           </div>
 
@@ -86,7 +86,7 @@ const Projects: React.FC = () => {
               title="Mood Waves"
               description="Mood Waves is an android/ios app built with flutter that serves as a wellness app for UNCW students."
               tags={["Flutter", "Dart", "Firebase"]}
-              lastUpdated="5/20/24"
+              lastUpdated="January 2024-May 2024"
             />
           </div>
         </div>
