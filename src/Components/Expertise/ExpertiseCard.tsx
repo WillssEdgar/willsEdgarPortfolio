@@ -13,7 +13,7 @@ const ExpertiseCard: React.FC<ProjectCardProps> = ({
 }) => {
   return (
     <div
-      className="container bg-slate-300 bg-opacity-75 p-4 rounded-2xl "
+      className="container bg-gray-500 shadow-lg bg-opacity-70 p-4 rounded-2xl "
       style={{
         minWidth: "305px",
         maxWidth: "380px",
@@ -24,14 +24,15 @@ const ExpertiseCard: React.FC<ProjectCardProps> = ({
         className="w-24 h-24 object-cover float-right"
         src={imageSrc}
         alt={title}
+        style={{ filter: "invert(100%) grayscale(100%)" }}
       />
       <div className="px-6 py-4">
-        <div className="font-bold text-slate-700 text-3xl mb-2">{title}</div>
+        <div className="font-bold text-white text-3xl mb-2">{title}</div>
       </div>
       <div className="px-6 pt-4 pb-2">
         <ul className="list-disc">
           {technologies.map((tech, index) => (
-            <li key={index} className="text-2xl font-bold text-slate-700">
+            <li key={index} className="text-2xl font-bold text-white">
               {tech}
             </li>
           ))}
