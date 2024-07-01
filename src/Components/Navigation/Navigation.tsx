@@ -1,49 +1,37 @@
-import { Link as ScrollLink } from "react-scroll";
+import { Link } from 'react-router-dom';
 
 function Navigation() {
   return (
     <div>
       <header>
         <nav className="fixed top-0 left-0 w-full bg-gray-700 text-center z-50">
-          <ScrollLink
-            to="home"
-            smooth={true}
-            duration={500}
-            offset={-350}
+          <Link
+            to="/"
             className="text-white font-mono font-bold inline-flex py-2 px-4 cursor-pointer"
           >
             Home
-          </ScrollLink>
+          </Link>
 
-          <ScrollLink
-            to="aboutMe"
-            smooth={true}
-            duration={500}
-            offset={-100}
+          <Link
+            to="/AboutMe"
             className="text-white font-mono font-bold inline-flex py-2 px-4 cursor-pointer"
           >
             About Me
-          </ScrollLink>
+          </Link>
 
-          <ScrollLink
-            to="expertise"
-            smooth={true}
-            duration={500}
-            offset={-50}
+          <Link
+            to="/Expertise"
             className="text-white font-mono font-bold inline-flex py-2 px-4 cursor-pointer"
           >
             Expertise
-          </ScrollLink>
+          </Link>
 
-          <ScrollLink
-            to="projects"
-            smooth={true}
-            duration={500}
-            offset={-50}
+          <Link
+            to="/Projects"
             className="text-white font-mono font-bold inline-flex py-2 px-4 cursor-pointer"
           >
             Projects
-          </ScrollLink>
+          </Link>
         </nav>
       </header>
     </div>

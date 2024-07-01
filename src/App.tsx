@@ -1,3 +1,4 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Navigation from "./Components/Navigation/Navigation";
 import "./App.css";
@@ -5,36 +6,29 @@ import AboutMe from "./Components/AboutMe/AboutMe";
 import Expertise from "./Components/Expertise/Expertise";
 import Footer from "./Components/Footer/Footer";
 import Projects from "./Components/Projects/Projects";
-import backgroundImage from "./assets/hoomeImage.png"; // Import the image
+import MoodWaves from "./Pages/MoodWaves";
+import HawksEye from "./Pages/HawksEye";
+import WseBanking from "./Pages/WseBanking";
+import MadeByWills from "./Pages/MadeByWills";
 
 function App() {
   return (
-    <div className="bg-slate-50 ">
-      <Navigation />
-      <div
-        className="flex justify-center items-center py-96 h-2/5 mb-72"
-        style={{
-          backgroundImage: `url(${backgroundImage})`,
-          backgroundSize: "100%",
-          backgroundPosition: "50%",
-          backgroundRepeat: "no-repeat",
-        }}
-      >
-        <Home />
-      </div>
-      <div className="mb-72 flex justify-center">
-        <AboutMe />
-      </div>
-      <div className="mb-72 flex justify-center">
-        <Expertise />
-      </div>
-      <div className="mb-72 flex justify-center">
-        <Projects />
-      </div>
-      <div>
+    <>
+      <BrowserRouter basename="/willsEdgarPortfolio/">
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/AboutMe" element={<AboutMe />} />
+          <Route path="/Expertise" element={<Expertise />} />
+          <Route path="/Projects" element={<Projects />} />
+          <Route path="/MoodWaves" element={<MoodWaves />} />
+          <Route path="/HawksEye" element={<HawksEye />} />
+          <Route path="/WseBanking" element={<WseBanking />} />
+          <Route path="/MadeByWills" element={<MadeByWills />} />
+        </Routes>
         <Footer />
-      </div>
-    </div>
+      </BrowserRouter>
+    </>
   );
 }
 
