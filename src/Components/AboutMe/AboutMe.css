@@ -1,7 +1,13 @@
 /**** About Me ****/
-
-.blurCon {
-    backdrop-filter: blur(40px);
-    background-color: rgba(0, 0, 0, 0.7); 
+.background {
+  background-image: url("../../assets/motherboard.jpg");
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center center; /* Center horizontally and vertically */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
+@media screen and (max-width: 1300px) {
+  .background {
+    background-image: none;
+  }
+}

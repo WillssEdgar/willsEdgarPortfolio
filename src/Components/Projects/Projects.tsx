@@ -1,19 +1,39 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import MadeByWills from "../../assets/MadeByWillsPreview.png";
+import MockTrading from "../../assets/mockTradingHome.png";
 import MoodWaves from "../../assets/MoodWaves.png";
 import WseBanking from "../../assets/MockBanking.png";
 import HawksEye from "../../assets/HawksEyeFeed.png";
 const Projects: React.FC = () => {
   return (
     <>
-      <div className="min-h-screen flex items-center justify-center">
+      <div className="min-h-screen md:flex md:items-center md:justify-center">
         <div className="projects container " id="projects">
-          <h5 className="mb-3 text-6xl underline p-10 mt-12 text-center text-gray-700 font-bold">
+          <h5 className="mb-3 text-6xl  p-10 mt-12 text-start text-gray-700 font-bold">
             Web Applications
           </h5>
-
-          <div className="flex justify-end items-center gap-4 my-20">
+          <div className="flex justify-center md:flex md:justify-end items-center gap-4 my-20">
+            <ProjectCard
+              page="MockTrading"
+              mobile={false}
+              imageSrc={MockTrading}
+              title="StockSim"
+              description="A full stack stock trading application built with Go and React."
+              tags={[
+                "Go",
+                "Gin",
+                "GORM",
+                "SupaBase",
+                "PostgreSQL",
+                "Tailwind CSS",
+                "React",
+                "TypeScript",
+              ]}
+              lastUpdated="May 2024 - Present"
+            />
+          </div>
+          <div className="flex justify-center md:flex md:justify-end items-center gap-4 my-20">
             <ProjectCard
               page="WseBanking"
               mobile={false}
@@ -32,7 +52,7 @@ const Projects: React.FC = () => {
               lastUpdated="04/03/24"
             />
           </div>
-          <div className="flex justify-end items-center gap-4 my-20 ">
+          <div className="flex justify-center md:flex md:justify-end items-center gap-3 my-20">
             <ProjectCard
               page="MadeByWills"
               mobile={false}
@@ -43,10 +63,10 @@ const Projects: React.FC = () => {
               lastUpdated="3/3/2024"
             />
           </div>
-          <h5 className="mb-3 underline text-6xl p-10 text-center text-gray-700 font-bold">
+          <h5 className="mb-3  text-6xl p-10 text-start text-gray-700 font-bold">
             Mobile Applications
           </h5>
-          <div className="flex justify-end items-center gap-28 my-20">
+          <div className="flex justify-end xs:justify-center items-center gap-28 my-20">
             <ProjectCard
               page="HawksEye"
               mobile={true}
@@ -58,7 +78,7 @@ const Projects: React.FC = () => {
             />
           </div>
 
-          <div className="flex justify-end items-center gap-28 my-20">
+          <div className="flex justify-end xs:justify-center items-center gap-28 my-20">
             <ProjectCard
               page="MoodWaves"
               mobile={true}

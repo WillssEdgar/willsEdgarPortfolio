@@ -6,17 +6,18 @@ interface ProjectCardProps {
   technologies: string[];
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({
+const ExpertiseCard: React.FC<ProjectCardProps> = ({
   imageSrc,
   title,
   technologies,
 }) => {
   return (
     <div
-      className="container p-4 border border-slate-700"
+      className="container bg-slate-300 bg-opacity-75 p-4 rounded-2xl "
       style={{
         minWidth: "305px",
         maxWidth: "380px",
+        height: "300px",
       }}
     >
       <img
@@ -30,7 +31,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       <div className="px-6 pt-4 pb-2">
         <ul className="list-disc">
           {technologies.map((tech, index) => (
-            <li key={index} className="text-2xl text-slate-700">
+            <li key={index} className="text-2xl font-bold text-slate-700">
               {tech}
             </li>
           ))}
@@ -40,4 +41,4 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   );
 };
 
-export default ProjectCard;
+export default ExpertiseCard;

@@ -25,7 +25,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     <>
       {!mobile ? (
         <>
-          <div className="w-7/12">
+          <div className="hidden md:flex md:w-7/12 ">
             <img
               className="w-full h-auto rounded-xl"
               src={imageSrc}
@@ -62,7 +62,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         </>
       ) : (
         <>
-          <div className="w-2/12 flex justify-start items-center">
+          <div className=" hidden md:w-2/12 md:flex md:justify-start items-center">
             <img
               className=" h-auto rounded-xl mb-2"
               src={imageSrc}
@@ -70,8 +70,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             />
           </div>
           <div
-            className="rounded-2xl m-4 bg-gray-100 w-7/12 shadow-lg hover:bg-gray-200 hover:cursor-pointer"
-            onClick={() => navigate(`/${imageSrc}`)}
+            className="flex justify-center md:block rounded-2xl m-4 bg-gray-100 md:w-7/12 shadow-lg hover:bg-gray-200 hover:cursor-pointer"
+            onClick={() => navigate(`/${page}`)}
           >
             <div className="px-6 py-4">
               <div className="font-bold text-gray-700 text-2xl mt-4 mb-2">

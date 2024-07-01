@@ -10,6 +10,7 @@ import MoodWaves from "./Pages/MoodWaves";
 import HawksEye from "./Pages/HawksEye";
 import WseBanking from "./Pages/WseBanking";
 import MadeByWills from "./Pages/MadeByWills";
+import MockTrading from "./Pages/MockTrading";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/HawksEye" element={<HawksEye />} />
           <Route path="/WseBanking" element={<WseBanking />} />
           <Route path="/MadeByWills" element={<MadeByWills />} />
+          <Route path="/MockTrading" element={<MockTrading />} />
         </Routes>
         <Footer />
       </BrowserRouter>

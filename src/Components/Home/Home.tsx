@@ -13,7 +13,7 @@ function Home() {
     >
       <div className="w-full max-w-md grid grid-rows-2 text-center bg-slate-300 p-3 rounded-lg bg-opacity-70">
         <div>
-          <h1 className="text-6xl font-bold text-gray-800" id="home">
+          <h1 className="text-5xl font-bold text-gray-800" id="home">
             WILLS EDGAR
           </h1>
         </div>
